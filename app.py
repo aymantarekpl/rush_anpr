@@ -7,9 +7,9 @@ import re
 from flask_socketio import SocketIO, emit
 
 base_url = 'https://rush-pre.odoo.com'
-db_name = 'rush_05_12'
+db_name = 'plementus-rush-develop-16952056'
 app = Flask(__name__)
-app.secret_key = "your_secret_key"
+app.secret_key = "rush"
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")  # Enable CORS for all origins
 
