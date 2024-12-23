@@ -6,7 +6,7 @@ from flask_cors import CORS
 import re
 from flask_socketio import SocketIO, emit
 
-base_url = 'http://localhost:8017'
+base_url = 'https://rush-pre.odoo.com'
 db_name = 'rush_05_12'
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
